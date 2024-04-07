@@ -1,0 +1,39 @@
+import pandas as pd
+from difflib import SequenceMatcher
+
+# Read the CSV file
+df = pd.read_csv('ChatCSV.csv')
+
+# Function to find common words
+def common_words_count(row):
+    words_message1 = set(row['message1'].lower().split())
+    words_message2 = set(row['message2'].lower().split())
+    return len(words_message1.intersection(words_message2))
+
+# Function to find sequence similarity
+def sequence_similarity(row):
+    similarity_ratio = SequenceMatcher(None, row['message1'], row['message2']).ratio()
+    return 1 if similarity_ratio > 0.5 else 0
+
+# Function to find length difference
+def length_difference(row):
+    return abs(len(row['message1']) - len(row['message2']))
+
+# Function to check if message2 contains any response word
+def contains_response_words(row, response_words):
+    words_message2 = row['message2'].lower().split()
+    return any(word in words_message2 for word in response_words)
+
+# Apply the feature extraction functions
+df['common_words'] = df.apply(common_words_count, axis=1)
+df['sequence_similarity'] = df.apply(sequence_similarity, axis=1)
+df['length_difference'] = df.apply(length_difference, axis=1)
+
+# Load response words
+response_words = df['response_words'].str.lower().unique()
+
+# Apply contains_response_words function
+df['contains_response_words'] = df.apply(lambda row: contains_response_words(row, response_words), axis=1)
+
+# Write back to CSV
+df.to_csv('ChatCSV_with_features.csv', index=False)

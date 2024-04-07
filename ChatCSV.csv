@@ -1,0 +1,201 @@
+message1,message2,response_words,common_words,sequence_similarity,length_difference,contains_response_words,y
+How's your day?,"My day is going well, thanks.",Yes,0,0,14,0,1
+What's new with you?,"Not much, just the usual.",No,0,0,5,0,1
+Any exciting plans for the weekend?,No specific plans yet. What about you?,Sure,1,0,3,1,1
+Have you been to that new restaurant?,"I haven't been there, is it good?",Okay,1,0,4,0,1
+Tell me something interesting.,"Sure, did you know honey never spoils?",Alright,0,0,8,1,1
+I watched a great movie yesterday.,That's awesome! What movie did you watch?,Absolutely,1,0,7,0,1
+What's your favorite type of cuisine?,Italian cuisine is my all-time favorite. You?,Certainly,0,0,8,0,1
+The weather is lovely today.,"It's a beautiful day, isn't it?",Definitely,0,0,3,0,1
+I'm in the mood for ice cream.,Ice cream sounds perfect right now!,Of course,1,0,5,1,1
+Any book recommendations?,"Have you read ""The Alchemist""?",Indeed,0,0,5,0,1
+Are you a morning person or a night owl?,I'm more of a night owl. How about you?,Affirmative,2,1,1,0,1
+Tell me about your favorite vacation.,My favorite vacation was in Bali.,Negative,1,1,4,0,1
+I had a great workout today.,I had an intense workout too!,Yeah,3,1,1,0,1
+Do you enjoy outdoor activities?,"Yes, I love outdoor activities.",Yup,1,1,1,0,1
+It's been a while since we talked.,"Yes, it's been a while. How have you been?",Nope,3,1,8,0,1
+What's your go-to comfort food?,Mac and cheese is my comfort food.,Fine,1,1,3,0,1
+How do you stay active?,I hit the gym regularly.,Great,0,0,1,0,1
+Let's plan a hike soon.,A hike sounds fantastic! Where?,Wonderful,2,0,8,0,1
+I'm into gardening these days.,Gardening can be so relaxing.,Fantastic,1,0,1,0,1
+What's your dream travel destination?,My dream destination is Santorini.,Awesome,1,1,3,0,1
+How's your job going?,Work's keeping me busy but going well.,Super,0,0,17,0,1
+I love photography as a hobby.,Photography is such a rewarding hobby.,Excellent,3,1,8,0,1
+Let's grab coffee this weekend.,Coffee this weekend? Count me in!,Perfect,2,1,2,0,1
+Do you have a favorite painting?,Starry Night by Van Gogh is my favorite.,Good,0,0,8,0,1
+I need a new Netflix show to watch.,Stranger Things on Netflix is a must-watch!,Bad,2,1,8,0,1
+I'm thinking of redecorating my room.,Redecorating is so refreshing. Any theme in mind?,Terrible,1,0,12,0,1
+"I'm a tea person, not coffee.",Tea is my go-to too. What's your favorite blend?,Horrible,1,0,19,0,1
+What's your favorite kind of music?,I enjoy a variety of music genres. How about you?,Unacceptable,1,0,14,0,1
+I'm excited about the holidays.,The holidays are such a magical time.,Agree,1,0,6,0,1
+How do you like to spend Sundays?,Sundays are perfect for relaxation and nature walks.,Disagree,0,0,19,1,1
+I'm starting a new DIY project.,DIY projects are a creative outlet. What's yours?,Understand,2,0,18,0,1
+I'm planning a road trip soon.,Road trips are adventurous! Any specific destination?,Confused,1,0,23,0,1
+What's your favorite season?,I'm a fan of the fall season. What's your favorite?,Clear,2,1,23,0,1
+I enjoy long walks in the park.,Long park walks are therapeutic.,Unclear,2,1,1,0,1
+I'm a fan of board games.,Board games are great for fun nights.,Right,1,0,12,1,1
+Do you have a favorite sport?,Do you have a favorite sport to watch or play?,Wrong,5,1,17,0,1
+I love the smell of fresh bread.,Fresh bread from the oven is unbeatable.,Correct,2,0,8,0,1
+I'm taking up yoga classes.,Yoga classes are so calming.,Incorrect,1,0,1,0,1
+It's time for a beach day.,Beach days are pure bliss.,Maybe,1,0,0,0,1
+Tell me about your hometown.,My hometown is a small town in the countryside.,Perhaps,0,0,19,0,1
+I'm trying out new recipes.,I'm experimenting with new recipes too.,Possibly,2,1,12,0,1
+I love going to the gym.,Gym sessions keep me active and energized.,Probably,0,0,18,0,1
+I want to learn to dance.,Learning to dance is a fun challenge.,Likely,1,0,12,0,1
+What's your favorite TV series?,Game of Thrones is my all-time favorite TV series.,Unlikely,2,1,19,0,1
+I'm organizing a family reunion.,Family reunions are wonderful for bonding.,Certainly not,1,0,10,1,1
+Let's plan a picnic.,Let's plan a picnic at the park.,Absolutely not,3,1,12,0,1
+I love stargazing at night.,Stargazing is so peaceful. What do you see?,Definitely not,1,0,16,0,1
+How's your pet doing?,My pet is doing well. How about yours?,No way,1,0,17,0,1
+I'm going to a concert next week.,I'm attending a concert next week. What about you?,I think so,5,1,17,1,1
+I enjoy painting landscapes.,Painting landscapes is such a serene hobby.,I don't think so,1,1,15,0,1
+I'm reading a thrilling mystery.,Thrilling mysteries are always intriguing.,I guess,1,0,10,1,1
+What's your favorite animal?,Elephants are my favorite animals. What's yours?,I don't know,2,1,20,0,1
+I'm into fitness and health.,Staying fit and healthy is important.,I'm not sure,1,1,9,0,1
+I'm going on a camping trip.,Camping trips are a great escape.,Let me check,2,0,5,1,1
+Let's have a movie night.,Movie nights are so much fun.,I'll find out,1,0,4,0,1
+I want to visit a museum.,Visiting a museum is always inspiring.,I'll get back to you,1,0,13,1,1
+I'm taking a pottery class.,Pottery classes are a creative outlet.,I'll let you know,2,0,11,0,1
+I'm a coffee shop regular.,Coffee shops have a cozy ambiance.,I'll pass,2,0,8,0,1
+How's your garden looking?,My garden is thriving with flowers.,I'm in,1,0,9,0,1
+I'm planning a city visit.,I'm planning a city visit soon.,I'm out,4,1,5,0,1
+I'm cooking dinner tonight.,What's on the menu for dinner tonight?,I'm interested,1,1,11,0,1
+What's your favorite movie genre?,I love action-adventure movies. You?,I'm not interested,0,0,3,0,1
+I'm getting a new car.,A new car is so exciting. What model?,Tell me more,2,0,15,0,1
+I'm trying a new hobby.,Exploring new hobbies is enriching.,Go on,1,0,12,0,1
+I'm going to a spa retreat.,A spa retreat sounds so relaxing.,Continue,2,0,6,0,1
+I love winter holidays.,Winter holidays are magical.,Stop,1,1,5,0,1
+I'm writing a travel blog.,Travel blogging is an adventure.,Wait,1,0,6,0,1
+I'm painting a mural.,Painting a mural is a creative endeavor.,Pause,2,1,19,0,1
+I'm a dog person.,I'm a cat person myself.,Hold on,2,1,7,0,1
+I'm planning a day at the beach.,A day at the beach is the perfect getaway.,Hurry,4,0,10,1,1
+What's your dream job?,My dream job would involve writing.,Quickly,1,0,13,0,1
+I'm practicing meditation.,Meditation is a great way to unwind.,Slowly,0,0,10,1,1
+I'm buying a new house.,Congratulations on your new house!,Later,1,0,11,0,1
+I'm a vegetarian.,Being a vegetarian is a healthy choice.,Soon,1,0,22,0,1
+I'm going to a jazz concert.,Jazz concerts are so soulful. Enjoy!,Now,1,0,8,0,1
+I love sunsets by the ocean.,Sunsets by the ocean are breathtaking.,Immediately,3,1,10,0,1
+I'm starting a book club.,A book club is a great way to share stories.,In a moment,2,0,19,1,1
+What's your favorite dessert?,My favorite dessert is tiramisu. Yours?,In a while,1,1,10,0,1
+I'm an early riser.,Early mornings are so peaceful.,In a bit,1,0,12,0,1
+I'm planning a solo trip.,Solo trips are an adventure. Where to?,In a second,1,0,13,0,1
+I'm hosting a barbecue.,Enjoy your barbecue! What's on the grill?,Later,0,0,18,0,1
+I enjoy spa days.,Spa days are pure relaxation.,After,1,0,12,0,1
+I'm learning a new language.,Learning a new language is a great goal.,Before,3,1,12,1,1
+What's your ideal weekend?,My ideal weekend involves a mix of relaxation and adventure.,Next,1,0,34,0,1
+I'm going on a hike.,Hikes are perfect for enjoying nature.,Last,0,0,18,1,1
+I'm a cat person.,Cats make wonderful companions.,First,0,0,14,1,1
+I'm cooking Indian food.,Indian food is full of flavors.,Always,1,0,7,0,1
+I'm visiting a wildlife sanctuary.,Wildlife sanctuaries are fascinating.,Never,1,0,3,0,1
+I'm working on my garden.,Gardening is a fulfilling hobby.,Sometimes,0,0,7,0,1
+I'm watching a documentary.,Documentaries provide valuable insights.,Occasionally,0,0,13,1,1
+What's your favorite author?,My favorite author is J.K. Rowling. Yours?,Frequently,1,1,14,0,1
+I'm having a movie marathon.,Movie marathons are so much fun.,Rarely,1,0,4,0,1
+I'm joining a dance class.,Dance classes are a great way to stay active.,Seldom,2,0,19,1,1
+I'm starting a home library.,Starting a home library is a fantastic idea.,Often,3,1,16,1,1
+I'm planning a beach wedding.,A beach wedding sounds magical.,Always,2,0,2,0,1
+I love chocolate desserts.,Chocolate desserts are the best!,Forever,1,1,6,0,1
+I'm taking a pottery workshop.,Enjoy your pottery workshop.,Temporarily,2,1,2,0,1
+I'm redecorating my office.,Office redecoration can be inspiring.,Permanently,0,0,10,0,1
+I'm hosting a game night.,Game nights are a blast!,Briefly,2,0,1,0,1
+I'm taking a bike ride.,Bike rides are a great way to explore.,Shortly,2,0,15,1,1
+What's your favorite fruit?,My favorite fruit is strawberries. Yours?,Appreciate,1,0,14,0,1
+I'm doing a photography project.,Photography projects can be so creative.,Grateful,1,1,8,0,1
+I'm a wine enthusiast.,Cheers to being a wine enthusiast!,Acknowledge,2,1,12,1,1
+I'm going on a river cruise.,River cruises offer scenic views.,Understandable,1,0,5,0,1
+I'm an art collector.,Collecting art is so fascinating.,Respect,1,0,12,0,1
+I'm planning a garden party.,Garden parties are full of charm.,Take care,1,0,5,0,1
+I'm a fashion lover.,Fashion is a fantastic form of expression.,Cheers,2,0,22,1,1
+I'm taking a cooking course.,Cooking courses are a delicious adventure.,Blessings,2,0,14,0,1
+I'm visiting a historical site.,Historical sites are rich in stories.,Merci ,1,0,6,0,1
+I'm going to a theater play.,Enjoy the theater play! Any favorites?,Kudos,1,0,10,0,1
+What's your favorite movie quote?,May the Force be with you is a classic.,Bravo,0,0,6,0,1
+I'm doing a road trip.,Road trips lead to exciting discoveries.,Encore,1,0,18,0,1
+I'm painting a self-portrait.,Self-portraits are a beautiful form of art.,Salute,1,0,14,0,1
+I'm taking a hiking expedition.,Hiking expeditions connect us with nature.,Hooray,1,0,11,0,1
+I'm planning a wildlife adventure.,Wildlife adventures are thrilling.,Bravo,1,1,0,0,1
+I'm attending a musical concert.,Musical concerts are so uplifting.,Bless,1,0,2,0,1
+What's your favorite holiday tradition?,My favorite holiday tradition is decorating the tree.,Hallelujah,2,1,14,0,1
+I'm going on a wine tour.,Wine tours are delightful. Have a favorite?,Righteous,2,0,18,0,1
+I'm starting a writing project.,Writing projects can be deeply rewarding.,Stellar,1,0,10,0,1
+I'm taking a photography trip.,Photography trips capture amazing memories.,Majestic,1,0,13,0,1
+I'm planning an art show.,Art shows are inspiring and creative.,Splendid,1,0,12,0,1
+I'm going on a food tour.,Food tours are a culinary journey.,Grand,2,0,9,0,1
+I'm exploring a new city.,Exploring new cities is so exciting.,Exquisite,2,1,11,0,1
+I'm starting a recipe collection.,Recipe collections are full of tasty ideas.,Phenomenal,1,0,10,0,1
+I'm taking a beer tasting tour.,Beer tasting tours are a fun way to discover new flavors.,Remarkable,3,0,26,0,1
+I'm planning a visit to a science museum.,Science museums are so informative and entertaining.,Miraculous,1,0,11,0,1
+I'm going on a photo safari.,A photo safari sounds like a thrilling adventure.,Splendiferous,2,0,21,0,1
+I'm starting a craft project.,Craft projects let your creativity shine.,Outstanding,1,0,12,0,1
+I'm attending a rock music concert.,Rock concerts are electrifying experiences.,Tremendous,1,0,8,0,1
+I'm planning a beach vacation.,Beach vacations are a dream getaway.,Superb,2,0,6,0,1
+I'm going on a wildlife photo shoot.,Wildlife photo shoots capture nature's beauty.,Marvelous,2,0,10,0,1
+I'm starting a technology blog.,Starting a technology blog is exciting.,Magnificent,3,1,8,0,1
+I'm visiting a cultural festival.,Cultural festivals are full of traditions and color.,Exceptional,1,0,19,0,1
+I'm taking a street food adventure.,Street food adventures introduce you to local flavors.,Peerless,2,0,19,0,1
+I'm planning a visit to a historic site.,Historic sites are rich in heritage.,Prodigious,1,0,4,0,1
+I'm going on a travel photography expedition.,Travel photography expeditions are amazing.,Supreme,2,1,2,0,1
+I'm starting a home improvement project.,Home improvement projects can transform your space.,Glorious,2,1,11,0,1
+I'm planning a trip to a tropical paradise.,Tropical paradises are pure relaxation.,Radiant,1,0,4,0,1
+I'm going on a classical music concert.,Classical music concerts are elegant and timeless.,Sublime,2,1,11,0,1
+I'm attending a cultural heritage event.,Cultural heritage events are full of cultural richness.,Fantastic,2,0,15,0,1
+I'm starting a birdwatching adventure.,Birdwatching adventures connect you with nature.,Terrific,1,1,10,0,1
+I'm planning a spa and wellness retreat.,Spa and wellness retreats offer relaxation.,Fabulous,3,1,3,0,1
+I'm going on a food and wine tour.,Food and wine tours are a culinary delight.,Stupendous,4,0,9,0,1
+I'm attending a film and music festival.,Film and music festivals are so vibrant.,Awe-inspiring,3,1,0,0,1
+I'm starting a vintage car restoration project.,Restoring vintage cars is a labor of love.,Astounding,2,1,5,0,1
+I'm planning a visit to a wildlife reserve.,Wildlife reserves are conservation wonders.,Breathtaking,1,0,0,0,1
+I'm going on a jazz and blues concert.,Jazz and blues concerts are soulful and lively.,Jaw-dropping,3,1,9,0,1
+I'm starting a language learning journey.,Learning a new language is a great journey.,Extraordinary,4,1,2,1,1
+I'm planning a visit to a mountain retreat.,Mountain retreats offer serene escapes.,Wondrous,1,0,4,0,1
+I'm going on an astronomy and stargazing expedition,Stargazing expeditions are cosmic adventures.,Formidable,1,0,6,0,1
+Hey there!,Let's grab a coffee soon.,Worthy,0,0,15,0,0
+How's life treating you?,Have you explored any new places?,Noteworthy,0,0,9,0,0
+Just checking in.,Music is my therapy.,Admirable,0,0,3,0,0
+Any interesting updates?,Any recent restaurant discoveries?,Commendable,1,0,10,0,0
+Guess what happened today?,What's your favorite movie genre?,Respectable,0,0,7,0,0
+Movie night last night.,I'm in the mood for pizza.,Honorable,0,0,3,0,0
+Craving any specific cuisine?,Did you start a new book?,Noble,0,0,4,0,0
+Beautiful weather today!,Long walks in the park are relaxing.,Distinguished,0,0,12,0,0
+Ice cream is a must!,Fitness and health are priorities.,Meritorious,0,0,14,0,0
+Any books you'd recommend?,Exploring new recipes lately?,Laudable,0,0,3,0,0
+Morning person or night owl?,Tell me about your hobbies.,Praiseworthy,0,0,1,0,0
+Dream vacation destination?,Dream job aspirations?,Worthy of admiration,1,1,5,0,0
+Had a great workout session.,Time for some weekend fun.,Deserving,0,0,2,0,0
+Outdoor adventures on the horizon.,Planning a getaway?,Creditable,0,0,15,0,0
+"Long time, no chat!",Any travel adventures planned?,Valuable,0,0,11,0,0
+Comfort food cravings?,Staying active with workouts?,Splendiferous,0,0,7,0,0
+Staying active these days?,I love painting landscapes.,Masterful,0,0,1,0,0
+Hiking plans soon?,Time for a spa day.,Skillful,0,0,1,0,0
+My new gardening project.,How's your garden looking?,Adroit,0,0,1,0,0
+Dream travel spot in mind?,What's your favorite dessert?,Proficient,0,0,3,0,0
+Work keeping you busy?,Let's hit the gym together.,Capable,0,0,5,0,0
+My latest photography project.,Any outdoor adventures coming up?,Competent,0,0,3,0,0
+Coffee date this weekend?,Jazz concerts are a blast.,Gifted,0,0,1,0,0
+Do you enjoy art?,The beach is calling!,Adept,0,0,4,0,0
+Looking for Netflix shows to watch.,I'm into cooking these days.,Accomplished,0,0,7,0,0
+Room redecoration ideas?,Any travel plans in mind?,Versatile,0,0,1,0,0
+Tea or coffee for you?,Love sunsets by the ocean.,Resourceful,0,0,4,0,0
+Music preferences?,I enjoy reading mystery novels.,Talented,0,0,13,0,0
+Holiday season excitement.,Share your favorite animal.,Clever,0,0,1,0,0
+Sunday relaxation rituals?,Are you a fitness enthusiast?,Ingenious,0,0,3,0,0
+DIY project underway.,Weekend adventures await.,Smart,0,0,4,0,0
+Road trip planning?,Tell me about your favorite author.,Wise,0,0,16,0,0
+Best season of the year?,Getting a new car soon.,Intelligent,0,0,1,0,0
+Enjoying leisurely park walks?,Trying out new hobbies.,Astute,0,0,7,0,0
+Game night on your radar?,Spa retreats are so relaxing.,Discerning,0,0,4,0,0
+A favorite sport to discuss?,Winter holidays are fun.,Insightful,0,0,4,0,0
+The aroma of fresh bread.,"Writing a travel blog, perhaps?",Perceptive,0,0,6,0,0
+Embarking on yoga classes.,Working on a mural project.,Judicious,1,0,1,0,0
+Beach day coming up.,Dog lover here!,Shrewd,0,0,5,0,0
+Tell me about your hometown.,Planning a day at the beach.,Sharp,0,0,0,0,0
+Culinary experiments cooking up.,Dream job aspirations?,Bright,0,0,10,0,0
+Gym sessions keeping you active?,Meditation for inner peace.,Brilliant,0,0,5,0,0
+Thinking of learning to dance.,A new house in the future?,Quick-witted,0,0,4,0,0
+Favorite TV series lately?,Are you a vegetarian?,Keen,0,0,5,0,0
+Family reunion arrangements.,Jazz concerts are amazing.,Sagacious,0,0,2,0,0
+Picnic in the works?,Planning a beach vacation?,Cognizant,0,0,6,0,0
+Starry nights and stargazing.,Going on a wildlife photo shoot.,Aware,0,0,3,0,0
+Share the latest about your pets.,Exploring new languages?,Mindful,0,0,9,0,0
+Upcoming concert plans?,I am doing study!,Conscious,0,0,6,0,0
+Let's chat about landscapes.,I am good at games.,Attentive,0,0,9,1,0
